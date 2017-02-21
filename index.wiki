@@ -5,5 +5,5 @@
 * [[Scratchpad]] -- various temporary stuff.
 
 == Links ==
-* [[python]]
-* [[vim]]
+* [[python.wiki]]
+* [[vim.wiki]]
