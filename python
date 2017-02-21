@@ -6,4 +6,4 @@
 * 2
 * 3
 
-[modeline]: # ( vim: set ft=markdown )
+[modeline]: # ( vim: set ft=markdown: )
