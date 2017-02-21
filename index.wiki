@@ -1,9 +1,9 @@
-= vim =
+= Notes =
 
-* bull 1
-* bull 2
-    - bull 3
+* [[Tasks]] -- things to be done _yesterday_!!!
+* [[Project Gutenberg]] -- good books are power.
+* [[Scratchpad]] -- various temporary stuff.
 
-== new ==
-
-* [[python.wiki]]
+== Links ==
+* [[python]]
+* [[vim]]
