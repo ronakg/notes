@@ -10,6 +10,8 @@ automatically based on the title.
 The notes plug-in comes with self hosting documentation. To jump to these notes
 position your cursor on the highlighted name and press ‘gf’ in normal mode:
 
- • Note taking syntax
- •
- • Note taking commands
+• bullet 1
+• bullet 2
+   ◦ sub bullet 1
+   ◦ sub bullet 2
+
