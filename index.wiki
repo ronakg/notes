@@ -1,9 +1,6 @@
 = Notes =
 
-* [[Tasks]] -- things to be done _yesterday_!!!
-* [[Project Gutenberg]] -- good books are power.
-* [[Scratchpad]] -- various temporary stuff.
-
 == Links ==
 * [[python.wiki]]
 * [[vim.wiki]]
+* [[bash]]
