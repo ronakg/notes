@@ -1,17 +1,11 @@
 vim
 ===
 
-To get started enter a title for your note above. When you’re ready to save
-your note just use Vim’s :write or :update commands, a filename will be picked
-automatically based on the title.
-
-                                    * * *
-
-The notes plug-in comes with self hosting documentation. To jump to these notes
-position your cursor on the highlighted name and press ‘gf’ in normal mode:
-
 • bullet 1
 • bullet 2
    ◦ sub bullet 1
    ◦ sub bullet 2
 
+# Heading 1
+
+## Heading 2
