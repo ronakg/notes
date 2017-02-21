@@ -1,6 +1,7 @@
 = Notes =
 
 == Links ==
+* [[test.wiki|test]]
 * [[python.wiki]]
 * [[vim.wiki]]
-* [[bash]]
+* [[bash.wiki]]
