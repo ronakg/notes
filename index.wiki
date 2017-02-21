@@ -4,3 +4,7 @@
 * [[python.wiki|Python]]
 * [[vim.wiki|Vim]]
 * [[bash.wiki|Bash]]
+* [[test.wiki|test]]
+* [[New.wiki|New]]
+* [[open.wiki|open]]
+* [[final.wiki|final]]
