@@ -9,6 +9,7 @@ git pull
 rm -r build
 make clean
 make CMAKE_BUILD_TYPE=Release
+make install
 ```
 
 ## C/C++ Support
