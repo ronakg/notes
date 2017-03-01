@@ -2,7 +2,7 @@
 
 ## Building
 
-- [Official Instructions](https://github.com/neovim/neovim/wiki/Building-Neovim)
+- [Official Instructions from NeoVim](https://github.com/neovim/neovim/wiki/Building-Neovim)
 
 ```bash
 git pull
