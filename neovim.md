@@ -3,7 +3,6 @@
 ## Building
 
 - [Instructions](https://github.com/neovim/neovim/wiki/Building-Neovim)
-- test
 
 ```bash
 git pull
