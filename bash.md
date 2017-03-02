@@ -74,7 +74,7 @@ echo ${str:5}               # string
 echo ${str:5:3}             # str
 ```
 
-** substrings by pattern **
+**substrings by pattern**
 
 ```bash
 ${variable%pattern}         # Trim the shortest match from the end
@@ -113,7 +113,7 @@ unset arr[3]
 
 ### Multiline strings
 
-** String assignment **
+**String assignment**
 
 ```bash
 str=$(cat << EOF
@@ -124,7 +124,7 @@ EOF
 )
 ```
 
-** Writing to a file **
+**Writing to a file**
 
 ```bash
 cat > /path/to/file << EOF
@@ -134,7 +134,7 @@ line 3
 EOF
 ```
 
-** Piping to a command **
+**Piping to a command**
 
 ```bash
 cat << EOF | grep 'b'
