@@ -2,6 +2,6 @@
 
 ## Topics
 
-- [C/C++](cpp.md)
+- [C/C++](c_cpp.md)
 - [Python](python.md)
 - [NeoVim](neovim.md)
