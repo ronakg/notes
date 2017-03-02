@@ -4,6 +4,7 @@
 * [Convenience functions](#convenience-functions)
     * [Try again](#try-again)
 * [Tips](#tips)
+    * [Accept/reject prompts by default](#acceptreject-prompts-by-default)
     * [Set default values / check for existence of a variable](#set-default-values--check-for-existence-of-a-variable)
     * [Trim whitespace from string](#trim-whitespace-from-string)
     * [Replacing inside a string](#replacing-inside-a-string)
@@ -41,9 +42,19 @@ try_again() {
 
     set -e
 }
+
+# Usage
+try_again date 10
 ```
 
 ## Tips
+
+### Accept/reject prompts by default
+
+```bash
+yes | some_command          # passes y to every prompt
+yes no | some_command       # passes no to every prompt
+```
 
 ### Set default values / check for existence of a variable
 
