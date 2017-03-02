@@ -9,7 +9,8 @@
 
 ## Topics
 
+- [Bash/Shell Scripting](bash.md)
 - [C/C++](c_cpp.md)
+- [Linux](linux.md)
 - [Python](python.md)
 - [Vim and NeoVim](vim.md)
-- [Linux](linux.md)
