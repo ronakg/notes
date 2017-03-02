@@ -4,6 +4,7 @@
 * [Convenience functions](#convenience-functions)
     * [Try again](#try-again)
 * [Tips](#tips)
+    * [Iterate over a file](#iterate-over-a-file)
     * [Accept/reject prompts by default](#acceptreject-prompts-by-default)
     * [Set default values / check for existence of a variable](#set-default-values--check-for-existence-of-a-variable)
     * [Trim whitespace from string](#trim-whitespace-from-string)
@@ -49,6 +50,14 @@ try_again date 10
 
 ## Tips
 
+### Iterate over a file
+
+```bash
+while read line; do
+    echo $line
+done </path/to/file/to/iterate
+```
+
 ### Accept/reject prompts by default
 
 ```bash
@@ -67,7 +76,11 @@ echo ${parameter:-word}             # xyz
 ### Trim whitespace from string
 
 ```bash
-echo 'test string' | tr -d ' '  # teststring
+# Delete spaces
+echo 'test    string' | tr -d ' '  # teststring
+
+# Squeeze spaces
+echo 'test    string' | tr -s ' '  # test string
 ```
 
 ### Replacing inside a string
