@@ -1,5 +1,14 @@
 # C/C++
 
+## Table of Contents
+
+
+<!-- vim-markdown-toc GFM -->
+* [Macros](#macros)
+* [Libraries](#libraries)
+
+<!-- vim-markdown-toc -->
+
 ## Macros
 
 - get number of arguments with GET_NUM_ARGS

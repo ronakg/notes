@@ -1,4 +1,16 @@
-# Vim
+# Vim and NeoVim
+
+## Table of Contents
+
+<!-- vim-markdown-toc GFM -->
+* [Vim](#vim)
+* [NeoVim](#neovim)
+    * [Building](#building)
+    * [C/C++ Support](#cc-support)
+
+<!-- vim-markdown-toc -->
+
+## Vim
 
 - Only substitute part of the matched string
     - `\zs` to ignore anything coming in front of it
@@ -12,9 +24,9 @@
 %s/foo\zebar/baz/
 ```
 
-# NeoVim
+## NeoVim
 
-## Building
+### Building
 
 - [Official Instructions from NeoVim](https://github.com/neovim/neovim/wiki/Building-Neovim)
 
@@ -26,7 +38,7 @@ make CMAKE_BUILD_TYPE=Release
 make install
 ```
 
-## C/C++ Support
+### C/C++ Support
 
 - Build llvm with clang support:
 
