@@ -7,6 +7,7 @@
 ```vim
 " foobar -> foobaz
 %s/foo\zsbar/baz/
+
 " foobar -> bazbar
 %s/foo\zebar/baz/
 ```
