@@ -1,3 +1,16 @@
+# Vim
+
+- Only substitute part of the matched string
+    - `\zs` to ignore anything coming in front of it
+    - `\ze` to ignore anything coming after it
+
+```vim
+" foobar -> foobaz
+%s/foo\zsbar/baz/
+" foobar -> bazbar
+%s/foo\zebar/baz/
+```
+
 # NeoVim
 
 ## Building

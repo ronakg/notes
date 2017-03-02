@@ -4,4 +4,4 @@
 
 - [C/C++](c_cpp.md)
 - [Python](python.md)
-- [NeoVim](neovim.md)
+- [Vim](vim.md)
