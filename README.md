@@ -12,3 +12,4 @@
 - [C/C++](c_cpp.md)
 - [Python](python.md)
 - [Vim and NeoVim](vim.md)
+- [Linux](linux.md)
