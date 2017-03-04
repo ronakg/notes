@@ -15,3 +15,4 @@
 - [Linux](linux.md)
 - [Python](python.md)
 - [Vim and NeoVim](vim.md)
+- [Third-party pacakges](thirdparty_packages.md)
