@@ -31,3 +31,4 @@
 ## Libraries
 
 - json: https://github.com/zserge/jsmn
+- json: http://www.digip.org/jansson/
