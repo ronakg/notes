@@ -3,12 +3,18 @@
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
+* [Tips](#tips)
 * [Vim](#vim)
 * [NeoVim](#neovim)
     * [Building](#building)
     * [C/C++ Support](#cc-support)
 
 <!-- vim-markdown-toc -->
+
+## Tips
+
+- Get all the diff blocks from other file `:%diffget`
+- Put all the diff blocks to other file `:%diffput`
 
 ## Vim
 
