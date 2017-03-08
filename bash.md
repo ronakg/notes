@@ -1,6 +1,7 @@
 # Bash / Shell Scripting
 
 <!-- vim-markdown-toc GFM -->
+* [grep](#grep)
 * [Convenience functions](#convenience-functions)
     * [Try again](#try-again)
 * [Tips](#tips)
@@ -15,6 +16,10 @@
 * [Reading material](#reading-material)
 
 <!-- vim-markdown-toc -->
+
+## grep
+
+- Don't show errors: `-s` or `--no-messages` to suppress errors.
 
 ## Convenience functions
 
