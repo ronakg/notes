@@ -2,6 +2,7 @@
 
 <!-- vim-markdown-toc GFM -->
 * [Tools](#tools)
+    * [Create temporary files](#create-temporary-files)
 * [Issues](#issues)
 
 <!-- vim-markdown-toc -->
@@ -15,6 +16,12 @@
 ```bash
 ssh-keygen -f "/home/ronakg/.ssh/known_hosts" -R <IP:1.1.1.1>
 ```
+
+### Create temporary files
+
+Create a temporary file in `<dir>`. `<template>` must have at least 3 `XXX`. Pass `-d` to create a temporary directory.
+
+`mktemp -p <dir> -t <template>`
 
 ## Issues
 
