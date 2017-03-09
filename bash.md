@@ -1,7 +1,7 @@
 # Bash / Shell Scripting
 
 <!-- vim-markdown-toc GFM -->
-* [grep](#grep)
+* [Tools](#tools)
 * [Convenience functions](#convenience-functions)
     * [Try again](#try-again)
 * [Tips](#tips)
@@ -17,9 +17,10 @@
 
 <!-- vim-markdown-toc -->
 
-## grep
+## Tools
 
-- Don't show errors: `-s` or `--no-messages` to suppress errors.
+- Don't show errors in grep: `-s` or `--no-messages` to suppress errors.
+- wget don't download file if already downloaded and continue partial downloads - `wget -c -N`
 
 ## Convenience functions
 
