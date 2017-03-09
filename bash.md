@@ -1,7 +1,6 @@
 # Bash / Shell Scripting
 
 <!-- vim-markdown-toc GFM -->
-* [Tools](#tools)
 * [Convenience functions](#convenience-functions)
     * [Try again](#try-again)
 * [Tips](#tips)
@@ -16,16 +15,6 @@
 * [Reading material](#reading-material)
 
 <!-- vim-markdown-toc -->
-
-## Tools
-
-- Don't show errors in grep: `-s` or `--no-messages` to suppress errors.
-- wget don't download file if already downloaded and continue partial downloads - `wget -c -N`
-- Remove an entry from ssh known_hosts -
-
-```bash
-ssh-keygen -f "/home/ronakg/.ssh/known_hosts" -R <IP:1.1.1.1>
-```
 
 ## Convenience functions
 
