@@ -4,6 +4,7 @@
 * [Convenience functions](#convenience-functions)
     * [Try again](#try-again)
 * [Tips](#tips)
+    * [Find files larger than 100mb and sort by size](#find-files-larger-than-100mb-and-sort-by-size)
     * [Iterate over a file](#iterate-over-a-file)
     * [Accept/reject prompts by default](#acceptreject-prompts-by-default)
     * [Set default values / check for existence of a variable](#set-default-values--check-for-existence-of-a-variable)
@@ -49,6 +50,12 @@ try_again date 10
 ```
 
 ## Tips
+
+### Find files larger than 100mb and sort by size
+
+```
+find . -size +100M | xargs ls -lhrS
+```
 
 ### Iterate over a file
 
