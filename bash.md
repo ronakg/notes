@@ -51,6 +51,8 @@ try_again date 10
 
 ## Tips
 
+- Show special characters in text file using `cat -A`
+
 ### Find files larger than 100mb and sort by size
 
 ```
