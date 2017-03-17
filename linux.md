@@ -2,6 +2,7 @@
 
 <!-- vim-markdown-toc GFM -->
 * [Tools](#tools)
+    * [Parse json](#parse-json)
     * [Create temporary files](#create-temporary-files)
 * [Issues](#issues)
 
@@ -16,6 +17,10 @@
 ```bash
 ssh-keygen -f "/home/ronakg/.ssh/known_hosts" -R <IP:1.1.1.1>
 ```
+
+### Parse json
+
+Use `jq` to parse any json text into json objects. https://stedolan.github.io/jq/
 
 ### Create temporary files
 
