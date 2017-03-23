@@ -9,10 +9,11 @@
 
 ## Topics
 
-- [Docker](docker.md)
 - [Bash/Shell Scripting](bash.md)
 - [C/C++](c_cpp.md)
+- [Docker](docker.md)
+- [Git](git.md)
 - [Linux](linux.md)
 - [Python](python.md)
-- [Vim and NeoVim](vim.md)
 - [Third-party pacakges](thirdparty_packages.md)
+- [Vim and NeoVim](vim.md)
