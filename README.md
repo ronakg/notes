@@ -12,6 +12,7 @@
 - [Bash/Shell Scripting](bash.md)
 - [C/C++](c_cpp.md)
 - [Docker](docker.md)
+- [Debugging](debugging.md)]
 - [Git](git.md)
 - [Linux](linux.md)
 - [Python](python.md)
