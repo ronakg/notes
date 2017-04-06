@@ -37,7 +37,7 @@
 - [Official Instructions from NeoVim](https://github.com/neovim/neovim/wiki/Building-Neovim)
 
 ```bash
-git pull
+git pull https://github.com/neovim/neovim.git
 rm -r build
 make clean
 make CMAKE_BUILD_TYPE=Release
