@@ -47,3 +47,8 @@ Create a temporary file in `<dir>`. `<template>` must have at least 3 `XXX`. Pas
     LC_ALL=en_US.UTF-8
     ```
 
+- **Core file not getting generated after crash**
+
+    Set the ulimit to unlimited to fix this.
+    ```ulimit -c unlimited```
+
