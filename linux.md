@@ -1,12 +1,23 @@
 # Linux
 
 <!-- vim-markdown-toc GFM -->
+* [Tips](#tips)
+    * [Setup SSH tunnel via intermediate host](#setup-ssh-tunnel-via-intermediate-host)
 * [Tools](#tools)
     * [Parse json](#parse-json)
     * [Create temporary files](#create-temporary-files)
 * [Issues](#issues)
 
 <!-- vim-markdown-toc -->
+
+## Tips
+
+### Setup SSH tunnel via intermediate host
+
+```bash
+ssh -v -L <localport>:<target_host>:<target_port> -N <intermediate_host>
+ssh -v -L 8888:10.0.0.231:443 -N centbuild03
+```
 
 ## Tools
 
