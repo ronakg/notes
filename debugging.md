@@ -10,4 +10,4 @@
 
 ### GDB
 
-- Make structs prettier: `set pretty print`
+- Make structs prettier: `set print pretty`
