@@ -1,5 +1,6 @@
 # Non-invasive tmux options for easier navigation
 
+```
 set-window-option -g mode-keys vi
 bind-key -t vi-copy 'v' begin-selection
 bind-key -t vi-copy 'y' copy-selection
@@ -70,3 +71,4 @@ set -g mouse-resize-pane on
 
 # Allow mouse to select windows
 set -g mouse-select-window on
+```
