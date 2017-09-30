@@ -1,4 +1,14 @@
-# Non-invasive tmux options for easier navigation
+# Tmux configuration that compliments defaults
+
+Ever felt the need to extend default tmux configuration without actually hamperning any of the defaults? Then use the following options.
+
+- Windows navigation using `Alt-number`
+- Jump between recent windows using `Alt-tab`
+- Switch between panes using `Alt-arrow` keys
+- Mouse mode on for those who like to click around
+- Easier splitting with more intuitive `|` and `-` keys
+- Vi key-bindings in copy mode
+- Prettier but still simple statsline
 
 ```
 set-window-option -g mode-keys vi
