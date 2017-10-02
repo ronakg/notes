@@ -37,6 +37,14 @@ bind -n M-Right select-pane -R
 bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
 
+# Ctrl and hjkl to switch between panes
+# Ctrl-\ to switch to last active pane
+bind-key -n C-h select-pane -L
+bind-key -n C-j select-pane -D
+bind-key -n C-k select-pane -U
+bind-key -n C-l select-pane -R
+bind-key -n C-\ select-pane -l
+
 # Alternate prefix
 set -g prefix2 C-Space
 
