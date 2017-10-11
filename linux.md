@@ -12,6 +12,12 @@
 
 ## Tips
 
+### Increase width and height of serial console
+
+```bash
+stty rows 60 cols 150
+```
+
 ### Setup SSH tunnel via intermediate host
 
 ```bash
