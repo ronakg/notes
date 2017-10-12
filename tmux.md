@@ -56,6 +56,8 @@ bind - split-window -v -c "#{pane_current_path}"
 bind r source-file ~/.tmux.conf \; display-message "Config reloaded..."
 
 # status line
+set-option -g status-left-length "80"
+
 set-window-option -g status-bg colour234
 
 set-window-option -g status-left " [#S] "
