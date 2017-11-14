@@ -18,6 +18,12 @@
 stty rows 60 cols 150
 ```
 
+### Backup using rsync
+
+```bash
+rsync -avhP -r --delete <source_dir> <target_dir>
+```
+
 ### Setup SSH tunnel via intermediate host
 
 ```bash
