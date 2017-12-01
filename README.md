@@ -3,6 +3,7 @@
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
+
 * [Topics](#topics)
 
 <!-- vim-markdown-toc -->
@@ -13,6 +14,7 @@
 - [C/C++](c_cpp.md)
 - [Debugging](debugging.md)
 - [Docker](docker.md)
+- [Misc](misc.md)
 - [Git](git.md)
 - [Linux](linux.md)
 - [Python](python.md)
