@@ -13,6 +13,12 @@
 
 - Connect to `targethost` via `jumphost` through SSH.
 
+```bash
+  $ ssh -t jumpuser@jumphost.domain ssh -t targetuser@targethost.domain
+```
+
+- Make above seamless and automatic by adding following to `~/.ssh/config`
+
 ```
 Host jumphost
   Hostname jumphost.domain
