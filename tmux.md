@@ -11,11 +11,13 @@ Ever felt the need to extend default tmux configuration without actually hampern
 - Prettier but still simple statsline
 
 ```
+# Set vi key-bindings for selection mode
 set-window-option -g mode-keys vi
 bind-key -t vi-copy 'v' begin-selection
 bind-key -t vi-copy 'y' copy-selection
 
-# switch windows with alt+number
+# switch windows with Alt+number
+# Make sure that Alt key is set to be the Meta key in your terminal emulator
 bind-key -n M-0 select-window -t 0
 bind-key -n M-1 select-window -t 1
 bind-key -n M-2 select-window -t 2
@@ -27,11 +29,11 @@ bind-key -n M-7 select-window -t 7
 bind-key -n M-8 select-window -t 8
 bind-key -n M-9 select-window -t 9
 
-# alt-tab to switch to last active window
+# Alt+Tab to switch to last active window
 bind-key -n M-tab last-window
 
 # fast pane switching
-# Use Alt-arrow keys without prefix key to switch panes
+# Use Alt+arrow keys without prefix key to switch panes
 bind -n M-Left select-pane -L
 bind -n M-Right select-pane -R
 bind -n M-Up select-pane -U
@@ -45,10 +47,10 @@ bind-key -n C-k select-pane -U
 bind-key -n C-l select-pane -R
 bind-key -n C-\ select-pane -l
 
-# Alternate prefix
+# Alternate prefix Ctrl+Space
 set -g prefix2 C-Space
 
-# use PREFIX | to split window horizontally and PREFIX - to split vertically
+# use Prefix+| to split window horizontally and Prefix+- to split vertically
 bind | split-window -h -c "#{pane_current_path}"
 bind - split-window -v -c "#{pane_current_path}"
 
@@ -78,9 +80,10 @@ set-window-option -g window-status-current-bg cyan
 set-window-option -g window-status-current-style regular
 
 
-# start windows at 1
+# Start windows at 1
 set -g base-index 1
 
+# Enable mouse mode by default
 setw -g mode-mouse on
 
 # Allow mouse to select which pane to use
