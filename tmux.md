@@ -83,8 +83,14 @@ set-window-option -g window-status-current-style regular
 # Start windows at 1
 set -g base-index 1
 
-# Enable mouse mode by default
+# Enable mouse mode by default for tmux version >= 2.1
 setw -g mode-mouse on
+
+# Enable mouse mode by default for tmux version < 2.1
+# set -g mode-mouse on
+# set -g mouse-resize-pane on
+# set -g mouse-select-pane on
+# set -g mouse-select-window on
 
 # Allow mouse to select which pane to use
 set -g mouse-select-pane on
