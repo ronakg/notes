@@ -10,7 +10,7 @@ Ever felt the need to extend default tmux configuration without actually hampern
 - Vi key-bindings in copy mode
 - Prettier but still simple statsline
 
-Paste following configuration into your `~/.tmux/conf`
+Paste following configuration into your `~/.tmux.conf`
 
 ```
 # Set vi key-bindings for selection mode
