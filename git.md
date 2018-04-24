@@ -8,6 +8,12 @@
 
 ## Tips
 
+### Enable credentials caching
+
+```bash
+git config --global credential.helper cache
+```
+
 ### Discard local commits and reset to master
 
 ```bash
