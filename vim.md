@@ -40,7 +40,7 @@
 git pull https://github.com/neovim/neovim.git
 rm -r build
 make clean
-make CMAKE_BUILD_TYPE=Release
+make CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=/path/to/install/binaries -DCMAKE_BUILD_TYPE=Release"
 make install
 ```
 
